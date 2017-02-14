@@ -1,0 +1,231 @@
+Time: 2016-11-27 11:29:53
+Path of this file: /Users/kelseypeterson/lxa5/linguistica/datasets/lxa_outputs/affixes_to_signatures.txt
+
+System info:
+=============================================
+System: Darwin
+Node: Kelseys-MacBook-Pro-2.local
+Release: 14.5.0
+Version: Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+Machine: x86_64
+Processor: i386
+Python version: 3.5.2
+
+Packages:
+=============================================
+Linguistica 5.1.0-dev
+SciPy 0.18.1
+NumPy 1.11.1
+NetworkX 1.11
+
+Linguistica parameters:
+=============================================
+{'keep_case': 0,
+ 'max_affix_length': 4,
+ 'max_word_tokens': 0,
+ 'max_word_types': 1000,
+ 'min_context_count': 3,
+ 'min_sig_count': 5,
+ 'min_stem_length': 4,
+ 'n_eigenvectors': 11,
+ 'n_neighbors': 9,
+ 'suffixing': 1}
+
+Input file information:
+=============================================
+Path: /Users/kelseypeterson/lxa5/linguistica/datasets/english-cmudict.dx1
+Number of word types: 63203
+Number of word tokens: 1012583
+
+Results:
+=============================================
+Affixes to signatures
+
+\begin{tabular}{llll}
+\toprule
+Index      & Affix           & Sig count       & Signatures \\
+\midrule
+1          & NULL            & 210             & '/'(2)/(2)/NULL, '/'s/NULL, '/(2)/NULL, '/NULL, '/NULL/hip, '/NULL/hip/hips, 's/(2)/NULL, 's/(2)/NULL/s, 's/(2)/NULL/s/s'/s(2), 's/(2)/NULL/s/s(2), 's/NULL, 's/NULL/al/s, 's/NULL/an/ans, 's/NULL/d/s, 's/NULL/e, 's/NULL/ed/ing/s, 's/NULL/ed/ing/s/s', 's/NULL/er, 's/NULL/er/ers, 's/NULL/es, 's/NULL/n, 's/NULL/n/ns, 's/NULL/on, 's/NULL/s, 's/NULL/s/s', 's/NULL/s/s'/ship, 's/NULL/s/y, 's/NULL/y, (2)/(3)/(4)/NULL, (2)/(3)/NULL, (2)/(3)/NULL/ly, (2)/NULL, (2)/NULL/d, (2)/NULL/d/d(2), (2)/NULL/d/d(2)/s, (2)/NULL/d/d(2)/s/s(2), (2)/NULL/d/s, (2)/NULL/d/s/s(2), (2)/NULL/ed/ing, (2)/NULL/ed/ing/s, (2)/NULL/ed/ing/s/s(2), (2)/NULL/ed/s, (2)/NULL/ing, (2)/NULL/ly, (2)/NULL/ly/ness, (2)/NULL/s, (2)/NULL/s/s(2), +s/NULL, +s/NULL/s, NULL/a, NULL/a/e, NULL/able, NULL/able/ed/ing/s, NULL/al, NULL/al/ally, NULL/al/ally/s, NULL/al/s, NULL/ally, NULL/ally/s, NULL/an, NULL/ard, NULL/ary, NULL/ary/s, NULL/ay, NULL/berg, NULL/burg, NULL/by, NULL/c, NULL/d, NULL/d/d(2), NULL/d/d(2)/s, NULL/d/ment, NULL/d/ment/s, NULL/d/r, NULL/d/r/r's/rs/rs'/s, NULL/d/r/rs, NULL/d/r/rs/s, NULL/d/r/rs/s/s(2), NULL/d/r/s, NULL/d/r/s/y, NULL/d/s, NULL/d/s/s(2), NULL/dale, NULL/e, NULL/e/es, NULL/e/s, NULL/ed, NULL/ed/ence/ent/ing/s, NULL/ed/er/ers/ing, NULL/ed/er/ers/ing/s, NULL/ed/er/es/ing, NULL/ed/er/ing, NULL/ed/er/ing/s, NULL/ed/es, NULL/ed/es/ing, NULL/ed/ful/s, NULL/ed/ing, NULL/ed/ing/ings/s, NULL/ed/ing/ion, NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ed/ing/ment, NULL/ed/ing/ment/s, NULL/ed/ing/s, NULL/ed/ing/s/y, NULL/ed/ment, NULL/ed/s, NULL/ed/y, NULL/el, NULL/en, NULL/er, NULL/er/ers, NULL/er/ers/ing/s, NULL/er/man, NULL/er/s, NULL/es, NULL/et, NULL/ey, NULL/ful, NULL/g, NULL/ged/ging/s, NULL/ham, NULL/hip, NULL/hip/hips, NULL/i, NULL/ia, NULL/ial, NULL/ial/s, NULL/ian, NULL/ic, NULL/ic/s, NULL/ide, NULL/ies/s/y, NULL/ies/y, NULL/ine, NULL/ing, NULL/ing/s, NULL/ing/y, NULL/ion, NULL/ion/ions, NULL/ism, NULL/ism/s, NULL/ist, NULL/ite, NULL/ity, NULL/ity/ly, NULL/ity/ly/s, NULL/l, NULL/la, NULL/land, NULL/le, NULL/ley, NULL/ly, NULL/ly/ness, NULL/ly/s, NULL/m, NULL/man, NULL/man/men, NULL/men, NULL/ment, NULL/n, NULL/n/ns, NULL/n/r, NULL/n/s, NULL/ne, NULL/ner, NULL/ness, NULL/ng, NULL/no, NULL/o, NULL/ome, NULL/on, NULL/on/on's, NULL/ous, NULL/ous/s, NULL/ped/per/pers/ping/s, NULL/ped/ping/s, NULL/r, NULL/r/rs, NULL/r/rs/s, NULL/r/s, NULL/rd, NULL/ro, NULL/ry, NULL/ry/s, NULL/s, NULL/s/s', NULL/s/s's, NULL/s/s(2), NULL/s/son, NULL/s/y, NULL/ship, NULL/son, NULL/st, NULL/t, NULL/t/t's, NULL/t/ts, NULL/te, NULL/ted, NULL/ter, NULL/ter/ters, NULL/tic, NULL/tick, NULL/ting, NULL/ton, NULL/tone, NULL/ty, NULL/us, NULL/x, NULL/y \\
+2          & s               & 86              & 's/(2)/NULL/s, 's/(2)/NULL/s/s'/s(2), 's/(2)/NULL/s/s(2), 's/NULL/al/s, 's/NULL/d/s, 's/NULL/ed/ing/s, 's/NULL/ed/ing/s/s', 's/NULL/s, 's/NULL/s/s', 's/NULL/s/s'/ship, 's/NULL/s/y, (2)/NULL/d/d(2)/s, (2)/NULL/d/d(2)/s/s(2), (2)/NULL/d/s, (2)/NULL/d/s/s(2), (2)/NULL/ed/ing/s, (2)/NULL/ed/ing/s/s(2), (2)/NULL/ed/s, (2)/NULL/s, (2)/NULL/s/s(2), +s/NULL/s, NULL/able/ed/ing/s, NULL/al/ally/s, NULL/al/s, NULL/ally/s, NULL/ary/s, NULL/d/d(2)/s, NULL/d/ment/s, NULL/d/r/r's/rs/rs'/s, NULL/d/r/rs/s, NULL/d/r/rs/s/s(2), NULL/d/r/s, NULL/d/r/s/y, NULL/d/s, NULL/d/s/s(2), NULL/e/s, NULL/ed/ence/ent/ing/s, NULL/ed/er/ers/ing/s, NULL/ed/er/ing/s, NULL/ed/ful/s, NULL/ed/ing/ings/s, NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ed/ing/ment/s, NULL/ed/ing/s, NULL/ed/ing/s/y, NULL/ed/s, NULL/er/ers/ing/s, NULL/er/s, NULL/ged/ging/s, NULL/ial/s, NULL/ic/s, NULL/ies/s/y, NULL/ing/s, NULL/ism/s, NULL/ity/ly/s, NULL/ly/s, NULL/n/s, NULL/ous/s, NULL/ped/per/pers/ping/s, NULL/ped/ping/s, NULL/r/rs/s, NULL/r/s, NULL/ry/s, NULL/s, NULL/s/s', NULL/s/s's, NULL/s/s(2), NULL/s/son, NULL/s/y, d/d(2)/s, d/r/rs/s, d/r/s, d/s, d/s/s(2), ed/s, er/s, g/s, ing/s, m/s, n/s, ne/s, ng/s, r/s, s/th, s/y \\
+3          & ed              & 58              & 's/NULL/ed/ing/s, 's/NULL/ed/ing/s/s', (2)/NULL/ed/ing, (2)/NULL/ed/ing/s, (2)/NULL/ed/ing/s/s(2), (2)/NULL/ed/s, NULL/able/ed/ing/s, NULL/ed, NULL/ed/ence/ent/ing/s, NULL/ed/er/ers/ing, NULL/ed/er/ers/ing/s, NULL/ed/er/es/ing, NULL/ed/er/ing, NULL/ed/er/ing/s, NULL/ed/es, NULL/ed/es/ing, NULL/ed/ful/s, NULL/ed/ing, NULL/ed/ing/ings/s, NULL/ed/ing/ion, NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ed/ing/ment, NULL/ed/ing/ment/s, NULL/ed/ing/s, NULL/ed/ing/s/y, NULL/ed/ment, NULL/ed/s, NULL/ed/y, able/e/ed/es/ing, able/ed, e/e(2)/ed/es/ing, e/e(2)/ed/ing, e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, e/ed/er/es/ing, e/ed/er/ing, e/ed/es/ing, e/ed/es/ing/ion, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/es/ing/ion/ive, e/ed/es/ing/y, e/ed/ing, e/ed/ing/ion, e/ed/ing/ion/ions, e/ed/ion, e/ed/ion/ions, ed/er/ers/ing, ed/er/ing, ed/ing, ed/ing/y, ed/ion, ed/ion/ions, ed/ment, ed/s, ed/y \\
+4          & ing             & 54              & 's/NULL/ed/ing/s, 's/NULL/ed/ing/s/s', (2)/NULL/ed/ing, (2)/NULL/ed/ing/s, (2)/NULL/ed/ing/s/s(2), (2)/NULL/ing, NULL/able/ed/ing/s, NULL/ed/ence/ent/ing/s, NULL/ed/er/ers/ing, NULL/ed/er/ers/ing/s, NULL/ed/er/es/ing, NULL/ed/er/ing, NULL/ed/er/ing/s, NULL/ed/es/ing, NULL/ed/ing, NULL/ed/ing/ings/s, NULL/ed/ing/ion, NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ed/ing/ment, NULL/ed/ing/ment/s, NULL/ed/ing/s, NULL/ed/ing/s/y, NULL/er/ers/ing/s, NULL/ing, NULL/ing/s, NULL/ing/y, able/e/ed/es/ing, e/e(2)/ed/es/ing, e/e(2)/ed/ing, e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, e/ed/er/es/ing, e/ed/er/ing, e/ed/es/ing, e/ed/es/ing/ion, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/es/ing/ion/ive, e/ed/es/ing/y, e/ed/ing, e/ed/ing/ion, e/ed/ing/ion/ions, e/es/ing, e/ing, ed/er/ers/ing, ed/er/ing, ed/ing, ed/ing/y, er/ers/ing, er/ing, ers/ing, ing/s \\
+5          & e               & 42              & 's/NULL/e, NULL/a/e, NULL/e, NULL/e/es, NULL/e/s, a/e, able/e/ed/es/ing, al/e, al/e/es, e/e(2)/ed/es/ing, e/e(2)/ed/ing, e/e(2)/y/y(2), e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, e/ed/er/es/ing, e/ed/er/ing, e/ed/es/ing, e/ed/es/ing/ion, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/es/ing/ion/ive, e/ed/es/ing/y, e/ed/ing, e/ed/ing/ion, e/ed/ing/ion/ions, e/ed/ion, e/ed/ion/ions, e/ely/ity, e/es/ic, e/es/ical, e/es/ing, e/h, e/i, e/ic, e/ing, e/ion, e/ion/ions, e/ious, e/ity, e/ng, e/y \\
+6          & d               & 40              & 's/NULL/d/s, (2)/NULL/d, (2)/NULL/d/d(2), (2)/NULL/d/d(2)/s, (2)/NULL/d/d(2)/s/s(2), (2)/NULL/d/s, (2)/NULL/d/s/s(2), NULL/d, NULL/d/d(2), NULL/d/d(2)/s, NULL/d/ment, NULL/d/ment/s, NULL/d/r, NULL/d/r/r's/rs/rs'/s, NULL/d/r/rs, NULL/d/r/rs/s, NULL/d/r/rs/s/s(2), NULL/d/r/s, NULL/d/r/s/y, NULL/d/s, NULL/d/s/s(2), d/d(2)/r, d/d(2)/r/rs, d/d(2)/rs, d/d(2)/s, d/n, d/r, d/r/r's, d/r/r's/rs, d/r/r's/rs/rs', d/r/rs, d/r/rs/s, d/r/ry, d/r/s, d/r/st, d/rs, d/s, d/s/s(2), d/t, d/y \\
+7          & y               & 39              & 's/NULL/s/y, 's/NULL/y, NULL/d/r/s/y, NULL/ed/ing/s/y, NULL/ed/y, NULL/ies/s/y, NULL/ies/y, NULL/ing/y, NULL/s/y, NULL/y, and/y, d/y, e/e(2)/y/y(2), e/ed/es/ing/y, e/y, ed/ing/y, ed/y, er/y, ess/y, ey/y, ic/y, ical/ist/ists/y, ical/ist/y, ical/y, ied/ies/y, ied/ies/y/ying, ied/y, ied/y/ying, ies/ies'/y/y's, ies/y, ies/y/y's, ies/y/y(2), ily/y, ist/ists/y, ist/y, l/y, ous/y, r/y, s/y \\
+8          & r               & 31              & NULL/d/r, NULL/d/r/r's/rs/rs'/s, NULL/d/r/rs, NULL/d/r/rs/s, NULL/d/r/rs/s/s(2), NULL/d/r/s, NULL/d/r/s/y, NULL/n/r, NULL/r, NULL/r/rs, NULL/r/rs/s, NULL/r/s, d/d(2)/r, d/d(2)/r/rs, d/r, d/r/r's, d/r/r's/rs, d/r/r's/rs/rs', d/r/rs, d/r/rs/s, d/r/ry, d/r/s, d/r/st, l/r, n/ned/ning/ns/r/st, n/r, r/rs/ur, r/s, r/ss, r/st, r/y \\
+9          & (2)             & 25              & '/'(2)/(2)/NULL, '/(2)/NULL, 's/(2)/NULL, 's/(2)/NULL/s, 's/(2)/NULL/s/s'/s(2), 's/(2)/NULL/s/s(2), (2)/(3)/(4)/NULL, (2)/(3)/NULL, (2)/(3)/NULL/ly, (2)/NULL, (2)/NULL/d, (2)/NULL/d/d(2), (2)/NULL/d/d(2)/s, (2)/NULL/d/d(2)/s/s(2), (2)/NULL/d/s, (2)/NULL/d/s/s(2), (2)/NULL/ed/ing, (2)/NULL/ed/ing/s, (2)/NULL/ed/ing/s/s(2), (2)/NULL/ed/s, (2)/NULL/ing, (2)/NULL/ly, (2)/NULL/ly/ness, (2)/NULL/s, (2)/NULL/s/s(2) \\
+10         & es              & 25              & 's/NULL/es, NULL/e/es, NULL/ed/er/es/ing, NULL/ed/es, NULL/ed/es/ing, NULL/es, able/e/ed/es/ing, al/e/es, al/es, cal/es, e/e(2)/ed/es/ing, e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, e/ed/er/es/ing, e/ed/es/ing, e/ed/es/ing/ion, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/es/ing/ion/ive, e/ed/es/ing/y, e/es/ic, e/es/ical, e/es/ing, es/ng \\
+11         & 's              & 23              & '/'s/NULL, 's/(2)/NULL, 's/(2)/NULL/s, 's/(2)/NULL/s/s'/s(2), 's/(2)/NULL/s/s(2), 's/NULL, 's/NULL/al/s, 's/NULL/an/ans, 's/NULL/d/s, 's/NULL/e, 's/NULL/ed/ing/s, 's/NULL/ed/ing/s/s', 's/NULL/er, 's/NULL/er/ers, 's/NULL/es, 's/NULL/n, 's/NULL/n/ns, 's/NULL/on, 's/NULL/s, 's/NULL/s/s', 's/NULL/s/s'/ship, 's/NULL/s/y, 's/NULL/y \\
+12         & er              & 23              & 's/NULL/er, 's/NULL/er/ers, NULL/ed/er/ers/ing, NULL/ed/er/ers/ing/s, NULL/ed/er/es/ing, NULL/ed/er/ing, NULL/ed/er/ing/s, NULL/er, NULL/er/ers, NULL/er/ers/ing/s, NULL/er/man, NULL/er/s, e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, e/ed/er/es/ing, e/ed/er/ing, ed/er/ers/ing, ed/er/ing, er/ers/ing, er/ing, er/ng, er/s, er/y \\
+13         & ion             & 20              & NULL/ed/ing/ion, NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ion, NULL/ion/ions, e/ed/es/ing/ion, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/es/ing/ion/ive, e/ed/ing/ion, e/ed/ing/ion/ions, e/ed/ion, e/ed/ion/ions, e/ion, e/ion/ions, ed/ion, ed/ion/ions, ion/ions/ory, ion/ory \\
+14         & n               & 19              & 's/NULL/n, 's/NULL/n/ns, NULL/n, NULL/n/ns, NULL/n/r, NULL/n/s, d/n, ker/n, l/n, ll/n, m/n, n/ned/ning/ns/r/st, n/ns/us, n/r, n/rk, n/s, n/t, n/us, n/wn \\
+15         & ng              & 19              & NULL/ng, a/ng, al/ng, ble/ng, e/ng, er/ng, es/ng, ng/on, ng/on/ons, ng/on/ons/ve, ng/on/ve, ng/s, ng/sh, ng/sm, ng/son, ng/st/sts, ng/tion, ng/ty, ng/ve \\
+16         & t               & 17              & NULL/t, NULL/t/t's, NULL/t/ts, ce/ces/t, ce/t, ce/t/tly, ce/t/ts, cies/cy/t, cy/t, d/t, h/t, m/t, m/t/t(2)/ts, m/t/tic, m/t/tic/ts, m/t/ts, n/t \\
+17         & on              & 15              & 's/NULL/on, NULL/on, NULL/on/on's, a/on, al/on, en/on, ng/on, ng/on/ons, ng/on/ons/ve, ng/on/ve, on/ons/ve, on/ons/ve/vely, on/ve, on/ve/vely, on/ve/ves \\
+18         & rs              & 14              & NULL/d/r/r's/rs/rs'/s, NULL/d/r/rs, NULL/d/r/rs/s, NULL/d/r/rs/s/s(2), NULL/r/rs, NULL/r/rs/s, d/d(2)/r/rs, d/d(2)/rs, d/r/r's/rs, d/r/r's/rs/rs', d/r/rs, d/r/rs/s, d/rs, r/rs/ur \\
+19         & ions            & 11              & NULL/ed/ing/ion/ions/ive/s, NULL/ed/ing/ion/ions/s, NULL/ion/ions, e/ed/es/ing/ion/ions, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, e/ed/ing/ion/ions, e/ed/ion/ions, e/ion/ions, ed/ion/ions, ion/ions/ory \\
+20         & al              & 10              & 's/NULL/al/s, NULL/al, NULL/al/ally, NULL/al/ally/s, NULL/al/s, al/e, al/e/es, al/es, al/ng, al/on \\
+21         & ers             & 10              & 's/NULL/er/ers, NULL/ed/er/ers/ing, NULL/ed/er/ers/ing/s, NULL/er/ers, NULL/er/ers/ing/s, e/ed/er/er's/ers/ers'/es/ing, e/ed/er/ers/es/ing, ed/er/ers/ing, er/ers/ing, ers/ing \\
+22         & s(2)            & 10              & 's/(2)/NULL/s/s'/s(2), 's/(2)/NULL/s/s(2), (2)/NULL/d/d(2)/s/s(2), (2)/NULL/d/s/s(2), (2)/NULL/ed/ing/s/s(2), (2)/NULL/s/s(2), NULL/d/r/rs/s/s(2), NULL/d/s/s(2), NULL/s/s(2), d/s/s(2) \\
+23         & a               & 9               & NULL/a, NULL/a/e, a/c, a/e, a/is, a/ng, a/o, a/on, a/um \\
+24         & d(2)            & 9               & (2)/NULL/d/d(2), (2)/NULL/d/d(2)/s, (2)/NULL/d/d(2)/s/s(2), NULL/d/d(2), NULL/d/d(2)/s, d/d(2)/r, d/d(2)/r/rs, d/d(2)/rs, d/d(2)/s \\
+25         & m               & 9               & NULL/m, m/n, m/s, m/t, m/t/t(2)/ts, m/t/tic, m/t/tic/ts, m/t/ts, m/tic \\
+26         & ies             & 8               & NULL/ies/s/y, NULL/ies/y, ied/ies/y, ied/ies/y/ying, ies/ies'/y/y's, ies/y, ies/y/y's, ies/y/y(2) \\
+27         & ly              & 8               & (2)/(3)/NULL/ly, (2)/NULL/ly, (2)/NULL/ly/ness, NULL/ity/ly, NULL/ity/ly/s, NULL/ly, NULL/ly/ness, NULL/ly/s \\
+28         & ve              & 8               & ng/on/ons/ve, ng/on/ve, ng/ve, on/ons/ve, on/ons/ve/vely, on/ve, on/ve/vely, on/ve/ves \\
+29         & ment            & 7               & NULL/d/ment, NULL/d/ment/s, NULL/ed/ing/ment, NULL/ed/ing/ment/s, NULL/ed/ment, NULL/ment, ed/ment \\
+30         & st              & 7               & NULL/st, cal/st, cal/st/sts, d/r/st, n/ned/ning/ns/r/st, ng/st/sts, r/st \\
+31         & '               & 6               & '/'(2)/(2)/NULL, '/'s/NULL, '/(2)/NULL, '/NULL, '/NULL/hip, '/NULL/hip/hips \\
+32         & ity             & 6               & NULL/ity, NULL/ity/ly, NULL/ity/ly/s, e/ely/ity, e/ity, ity/ous \\
+33         & ic              & 5               & NULL/ic, NULL/ic/s, e/es/ic, e/ic, ic/y \\
+34         & ist             & 5               & NULL/ist, ical/ist/ists/y, ical/ist/y, ist/ists/y, ist/y \\
+35         & l               & 5               & NULL/l, l/n, l/r, l/ry, l/y \\
+36         & o               & 5               & NULL/o, a/o, g/o, h/o, i/o \\
+37         & ous             & 5               & NULL/ous, NULL/ous/s, ity/ous, ous/ty, ous/y \\
+38         & s'              & 5               & 's/(2)/NULL/s/s'/s(2), 's/NULL/ed/ing/s/s', 's/NULL/s/s', 's/NULL/s/s'/ship, NULL/s/s' \\
+39         & tic             & 5               & NULL/tic, m/t/tic, m/t/tic/ts, m/tic, sis/tic \\
+40         & ts              & 5               & NULL/t/ts, ce/t/ts, m/t/t(2)/ts, m/t/tic/ts, m/t/ts \\
+41         & able            & 4               & NULL/able, NULL/able/ed/ing/s, able/e/ed/es/ing, able/ed \\
+42         & ally            & 4               & NULL/al/ally, NULL/al/ally/s, NULL/ally, NULL/ally/s \\
+43         & an              & 4               & 's/NULL/an/ans, NULL/an, an/an's/en, an/en \\
+44         & ce              & 4               & ce/ces/t, ce/t, ce/t/tly, ce/t/ts \\
+45         & en              & 4               & NULL/en, an/an's/en, an/en, en/on \\
+46         & g               & 4               & NULL/g, ess/g, g/o, g/s \\
+47         & h               & 4               & e/h, h/k, h/o, h/t \\
+48         & hip             & 4               & '/NULL/hip, '/NULL/hip/hips, NULL/hip, NULL/hip/hips \\
+49         & ical            & 4               & e/es/ical, ical/ist/ists/y, ical/ist/y, ical/y \\
+50         & ied             & 4               & ied/ies/y, ied/ies/y/ying, ied/y, ied/y/ying \\
+51         & ns              & 4               & 's/NULL/n/ns, NULL/n/ns, n/ned/ning/ns/r/st, n/ns/us \\
+52         & ons             & 4               & ng/on/ons, ng/on/ons/ve, on/ons/ve, on/ons/ve/vely \\
+53         & r's             & 4               & NULL/d/r/r's/rs/rs'/s, d/r/r's, d/r/r's/rs, d/r/r's/rs/rs' \\
+54         & ry              & 4               & NULL/ry, NULL/ry/s, d/r/ry, l/ry \\
+55         & us              & 4               & NULL/us, n/ns/us, n/us, sity/us \\
+56         & (3)             & 3               & (2)/(3)/(4)/NULL, (2)/(3)/NULL, (2)/(3)/NULL/ly \\
+57         & ble             & 3               & ble/ge, ble/ng, ble/tion \\
+58         & c               & 3               & NULL/c, a/c, c/sm \\
+59         & cal             & 3               & cal/es, cal/st, cal/st/sts \\
+60         & e(2)            & 3               & e/e(2)/ed/es/ing, e/e(2)/ed/ing, e/e(2)/y/y(2) \\
+61         & ess             & 3               & ess/g, ess/ine, ess/y \\
+62         & ey              & 3               & NULL/ey, and/ey, ey/y \\
+63         & i               & 3               & NULL/i, e/i, i/o \\
+64         & ive             & 3               & NULL/ed/ing/ion/ions/ive/s, e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ive \\
+65         & man             & 3               & NULL/er/man, NULL/man, NULL/man/men \\
+66         & ness            & 3               & (2)/NULL/ly/ness, NULL/ly/ness, NULL/ness \\
+67         & or              & 3               & e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors, id/or \\
+68         & son             & 3               & NULL/s/son, NULL/son, ng/son \\
+69         & tion            & 3               & ble/tion, ng/tion, nt/tion \\
+70         & ty              & 3               & NULL/ty, ng/ty, ous/ty \\
+71         & +s              & 2               & +s/NULL, +s/NULL/s \\
+72         & 2)              & 2               & 2)/3), 2)/3)/4) \\
+73         & 3)              & 2               & 2)/3), 2)/3)/4) \\
+74         & and             & 2               & and/ey, and/y \\
+75         & ard             & 2               & NULL/ard, ard/ood \\
+76         & ary             & 2               & NULL/ary, NULL/ary/s \\
+77         & cy              & 2               & cies/cy/t, cy/t \\
+78         & ful             & 2               & NULL/ed/ful/s, NULL/ful \\
+79         & hips            & 2               & '/NULL/hip/hips, NULL/hip/hips \\
+80         & ial             & 2               & NULL/ial, NULL/ial/s \\
+81         & ine             & 2               & NULL/ine, ess/ine \\
+82         & ism             & 2               & NULL/ism, NULL/ism/s \\
+83         & ists            & 2               & ical/ist/ists/y, ist/ists/y \\
+84         & le              & 2               & NULL/le, le/les/ular \\
+85         & ll              & 2               & ll/n, ll/tt \\
+86         & men             & 2               & NULL/man/men, NULL/men \\
+87         & ne              & 2               & NULL/ne, ne/s \\
+88         & ors             & 2               & e/ed/es/ing/ion/ions/ive/or/ors, e/ed/es/ing/ion/ions/or/ors \\
+89         & ory             & 2               & ion/ions/ory, ion/ory \\
+90         & ped             & 2               & NULL/ped/per/pers/ping/s, NULL/ped/ping/s \\
+91         & ping            & 2               & NULL/ped/per/pers/ping/s, NULL/ped/ping/s \\
+92         & rs'             & 2               & NULL/d/r/r's/rs/rs'/s, d/r/r's/rs/rs' \\
+93         & ship            & 2               & 's/NULL/s/s'/ship, NULL/ship \\
+94         & sm              & 2               & c/sm, ng/sm \\
+95         & sts             & 2               & cal/st/sts, ng/st/sts \\
+96         & ter             & 2               & NULL/ter, NULL/ter/ters \\
+97         & vely            & 2               & on/ons/ve/vely, on/ve/vely \\
+98         & y's             & 2               & ies/ies'/y/y's, ies/y/y's \\
+99         & y(2)            & 2               & e/e(2)/y/y(2), ies/y/y(2) \\
+100        & ying            & 2               & ied/ies/y/ying, ied/y/ying \\
+101        & '(2)            & 1               & '/'(2)/(2)/NULL \\
+102        & (4)             & 1               & (2)/(3)/(4)/NULL \\
+103        & 4)              & 1               & 2)/3)/4) \\
+104        & an's            & 1               & an/an's/en \\
+105        & ans             & 1               & 's/NULL/an/ans \\
+106        & ay              & 1               & NULL/ay \\
+107        & berg            & 1               & NULL/berg \\
+108        & burg            & 1               & NULL/burg \\
+109        & by              & 1               & NULL/by \\
+110        & ces             & 1               & ce/ces/t \\
+111        & cies            & 1               & cies/cy/t \\
+112        & dale            & 1               & NULL/dale \\
+113        & de              & 1               & de/ded/des/ding/sion/sive \\
+114        & ded             & 1               & de/ded/des/ding/sion/sive \\
+115        & des             & 1               & de/ded/des/ding/sion/sive \\
+116        & ding            & 1               & de/ded/des/ding/sion/sive \\
+117        & el              & 1               & NULL/el \\
+118        & ely             & 1               & e/ely/ity \\
+119        & ence            & 1               & NULL/ed/ence/ent/ing/s \\
+120        & ent             & 1               & NULL/ed/ence/ent/ing/s \\
+121        & er's            & 1               & e/ed/er/er's/ers/ers'/es/ing \\
+122        & ers'            & 1               & e/ed/er/er's/ers/ers'/es/ing \\
+123        & et              & 1               & NULL/et \\
+124        & ge              & 1               & ble/ge \\
+125        & ged             & 1               & NULL/ged/ging/s \\
+126        & ging            & 1               & NULL/ged/ging/s \\
+127        & ham             & 1               & NULL/ham \\
+128        & ia              & 1               & NULL/ia \\
+129        & ian             & 1               & NULL/ian \\
+130        & id              & 1               & id/or \\
+131        & ide             & 1               & NULL/ide \\
+132        & ies'            & 1               & ies/ies'/y/y's \\
+133        & ily             & 1               & ily/y \\
+134        & ings            & 1               & NULL/ed/ing/ings/s \\
+135        & ious            & 1               & e/ious \\
+136        & is              & 1               & a/is \\
+137        & ite             & 1               & NULL/ite \\
+138        & k               & 1               & h/k \\
+139        & ker             & 1               & ker/n \\
+140        & la              & 1               & NULL/la \\
+141        & land            & 1               & NULL/land \\
+142        & les             & 1               & le/les/ular \\
+143        & ley             & 1               & NULL/ley \\
+144        & ned             & 1               & n/ned/ning/ns/r/st \\
+145        & ner             & 1               & NULL/ner \\
+146        & ning            & 1               & n/ned/ning/ns/r/st \\
+147        & no              & 1               & NULL/no \\
+148        & nt              & 1               & nt/tion \\
+149        & ome             & 1               & NULL/ome \\
+150        & on's            & 1               & NULL/on/on's \\
+151        & ood             & 1               & ard/ood \\
+152        & per             & 1               & NULL/ped/per/pers/ping/s \\
+153        & pers            & 1               & NULL/ped/per/pers/ping/s \\
+154        & rd              & 1               & NULL/rd \\
+155        & rk              & 1               & n/rk \\
+156        & ro              & 1               & NULL/ro \\
+157        & s's             & 1               & NULL/s/s's \\
+158        & sh              & 1               & ng/sh \\
+159        & sion            & 1               & de/ded/des/ding/sion/sive \\
+160        & sis             & 1               & sis/tic \\
+161        & sity            & 1               & sity/us \\
+162        & sive            & 1               & de/ded/des/ding/sion/sive \\
+163        & ss              & 1               & r/ss \\
+164        & t's             & 1               & NULL/t/t's \\
+165        & t(2)            & 1               & m/t/t(2)/ts \\
+166        & te              & 1               & NULL/te \\
+167        & ted             & 1               & NULL/ted \\
+168        & ters            & 1               & NULL/ter/ters \\
+169        & th              & 1               & s/th \\
+170        & tick            & 1               & NULL/tick \\
+171        & ting            & 1               & NULL/ting \\
+172        & tly             & 1               & ce/t/tly \\
+173        & ton             & 1               & NULL/ton \\
+174        & tone            & 1               & NULL/tone \\
+175        & tt              & 1               & ll/tt \\
+176        & ular            & 1               & le/les/ular \\
+177        & um              & 1               & a/um \\
+178        & ur              & 1               & r/rs/ur \\
+179        & ves             & 1               & on/ve/ves \\
+180        & wn              & 1               & n/wn \\
+181        & x               & 1               & NULL/x \\
+\bottomrule
+\end{tabular}
+

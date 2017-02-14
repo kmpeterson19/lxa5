@@ -1,0 +1,448 @@
+Time: 2016-11-27 11:29:53
+Path of this file: /Users/kelseypeterson/lxa5/linguistica/datasets/lxa_outputs/signatures_to_words_truncated.txt
+
+System info:
+=============================================
+System: Darwin
+Node: Kelseys-MacBook-Pro-2.local
+Release: 14.5.0
+Version: Darwin Kernel Version 14.5.0: Mon Jan 11 18:48:35 PST 2016; root:xnu-2782.50.2~1/RELEASE_X86_64
+Machine: x86_64
+Processor: i386
+Python version: 3.5.2
+
+Packages:
+=============================================
+Linguistica 5.1.0-dev
+SciPy 0.18.1
+NumPy 1.11.1
+NetworkX 1.11
+
+Linguistica parameters:
+=============================================
+{'keep_case': 0,
+ 'max_affix_length': 4,
+ 'max_word_tokens': 0,
+ 'max_word_types': 1000,
+ 'min_context_count': 3,
+ 'min_sig_count': 5,
+ 'min_stem_length': 4,
+ 'n_eigenvectors': 11,
+ 'n_neighbors': 9,
+ 'suffixing': 1}
+
+Input file information:
+=============================================
+Path: /Users/kelseypeterson/lxa5/linguistica/datasets/english-cmudict.dx1
+Number of word types: 63203
+Number of word tokens: 1012583
+
+Results:
+=============================================
+Signatures to words (first 10 words for each sig)
+
+\begin{tabular}{llll}
+\toprule
+Index      & Signature            & Word count      & 1st 10 words \\
+\midrule
+1          & NULL/s               & 5796            & abatement, abatements, abba, abbas, abbreviation, abbreviations, abduction, abductions, aberration, aberrations \\
+2          & (2)/NULL             & 4882            & (parenthetically, (parenthetically(2), )right-paren, )right-paren(2), ;semi-colon, ;semi-colon(2), ababa, ababa(2), abboud, abboud(2) \\
+3          & 's/NULL              & 2186            & aaron, aaron's, abbey, abbey's, abbott, abbott's, about, about's, academy, academy's \\
+4          & NULL/ly              & 936             & abundant, abundantly, abysmal, abysmally, accidental, accidentally, according, accordingly, accurate, accurately \\
+5          & NULL/ed/ing/s        & 916             & administer, administered, administering, administers, affirm, affirmed, affirming, affirms, amount, amounted \\
+6          & NULL/d/s             & 897             & abide, abided, abides, accommodate, accommodated, accommodates, accrue, accrued, accrues, allocate \\
+7          & NULL/d               & 730             & abdicate, abdicated, abrogate, abrogated, accede, acceded, accentuate, accentuated, adore, adored \\
+8          & e/ed/es/ing          & 700             & abide, abided, abides, abiding, alleviate, alleviated, alleviates, alleviating, allude, alluded \\
+9          & 's/NULL/s            & 564             & actor, actor's, actors, administration, administration's, administrations, afternoon, afternoon's, afternoons, agreement \\
+10         & '/NULL               & 538             & accountants, accountants', achilles, achilles', advertisers, advertisers', advisers, advisers', agencies, agencies' \\
+11         & NULL/ed/ing          & 408             & allay, allayed, allaying, amass, amassed, amassing, astound, astounded, astounding, augment \\
+12         & (2)/NULL/s/s(2)      & 404             & abstention, abstention(2), abstentions, abstentions(2), accusation, accusation(2), accusations, accusations(2), additive, additive(2) \\
+13         & e/ed/ing             & 396             & abate, abated, abating, accede, acceded, acceding, accentuate, accentuated, accentuating, agonize \\
+14         & 's/(2)/NULL          & 342             & affiliated, affiliated's, affiliated(2), alexander, alexander's, alexander(2), allied, allied's, allied(2), allison \\
+15         & 's/NULL/s/s'         & 336             & accountant, accountant's, accountants, accountants', advertiser, advertiser's, advertisers, advertisers', adviser, adviser's \\
+16         & (2)/NULL/s           & 327             & acceptance, acceptance(2), acceptances, advertisement, advertisement(2), advertisements, announcement, announcement(2), announcements, artichoke \\
+17         & (2)/(3)/NULL         & 306             & abuses, abuses(2), abuses(3), annuity, annuity(2), annuity(3), appalachian, appalachian(2), appalachian(3), asean \\
+18         & 2)/3)                & 300             & abuses(2), abuses(3), adverse(2), adverse(3), annuity(2), annuity(3), appalachian(2), appalachian(3), asean(2), asean(3) \\
+19         & d/r/rs               & 288             & attacked, attacker, attackers, banned, banner, banners, bargained, bargainer, bargainers, bleached \\
+20         & NULL/ing             & 278             & accompany, accompanying, adjoin, adjoining, amplify, amplifying, apply, applying, bait, baiting \\
+21         & ies/y                & 268             & abnormalities, abnormality, absurdities, absurdity, accessories, accessory, ambiguities, ambiguity, amenities, amenity \\
+22         & d/s                  & 240             & abolished, abolishes, accompanied, accompanies, accomplished, accomplishes, admonished, admonishes, ambushed, ambushes \\
+23         & NULL/ed              & 230             & acclaim, acclaimed, accost, accosted, accustom, accustomed, airlift, airlifted, anguish, anguished \\
+24         & ng/on                & 228             & accelerating, acceleration, according, accordion, activating, activation, aggravating, aggravation, agitating, agitation \\
+25         & ng/on/ons            & 228             & affecting, affection, affections, affiliating, affiliation, affiliations, afflicting, affliction, afflictions, allocating \\
+26         & NULL/d/d(2)/s        & 208             & accelerate, accelerated, accelerated(2), accelerates, accumulate, accumulated, accumulated(2), accumulates, activate, activated \\
+27         & NULL/n               & 198             & ackerman, ackermann, alai, alain, amazonia, amazonian, anatolia, anatolian, arcadia, arcadian \\
+28         & ed/ing               & 192             & abetted, abetting, accredited, accrediting, appalled, appalling, backpedaled, backpedaling, benefitted, benefitting \\
+29         & NULL/s/s(2)          & 189             & absence, absences, absences(2), academician, academicians, academicians(2), adaptation, adaptations, adaptations(2), allegiance \\
+30         & NULL/d/r/rs/s        & 180             & accuse, accused, accuser, accusers, accuses, acquire, acquired, acquirer, acquirers, acquires \\
+31         & e/ed/er/ers/es/ing   & 174             & accuse, accused, accuser, accusers, accuses, accusing, acquire, acquired, acquirer, acquirers \\
+32         & NULL/y               & 170             & ants, antsy, arts, artsy, baran, barany, bawd, bawdy, bitch, bitchy \\
+33         & NULL/e               & 168             & adrenalin, adrenaline, arlen, arlene, bees, beese, belmont, belmonte, blain, blaine \\
+34         & NULL/ed/er/ers/ing/s & 162             & attack, attacked, attacker, attackers, attacking, attacks, boil, boiled, boiler, boilers \\
+35         & NULL/ed/s            & 162             & abound, abounded, abounds, array, arrayed, arrays, autograph, autographed, autographs, befriend \\
+36         & e/y                  & 156             & admirable, admirably, amiable, amiably, amicable, amicably, appreciable, appreciably, arguable, arguably \\
+37         & e/ed/ing/ion         & 144             & contaminate, contaminated, contaminating, contamination, corroborate, corroborated, corroborating, corroboration, deplete, depleted \\
+38         & NULL/on              & 142             & abrahams, abrahamson, abrams, abramson, aches, acheson, addis, addison, basso, bassoon \\
+39         & d/r                  & 140             & belched, belcher, bloomed, bloomer, broiled, broiler, buzzed, buzzer, capped, capper \\
+40         & NULL/ing/s           & 129             & ballot, balloting, ballots, bellow, bellowing, bellows, bluff, bluffing, bluffs, bring \\
+41         & NULL/s/s'            & 126             & achille, achilles, achilles', airway, airways, airways', asset, assets, assets', attendant \\
+42         & 's/NULL/n/ns         & 124             & alaska, alaska's, alaskan, alaskans, algeria, algeria's, algerian, algerians, angola, angola's \\
+43         & '/(2)/NULL           & 123             & activists, activists', activists(2), affiliates, affiliates', affiliates(2), allies, allies', allies(2), americans \\
+44         & (2)/NULL/ly          & 123             & advised, advised(2), advisedly, affectionate, affectionate(2), affectionately, anatomical, anatomical(2), anatomically, anxious \\
+45         & (2)/NULL/ed/ing/s/s(2) & 120             & barrel, barrel(2), barreled, barreling, barrels, barrels(2), compound, compound(2), compounded, compounding \\
+46         & NULL/es              & 118             & actress, actresses, alias, aliases, barth, barthes, batch, batches, blemish, blemishes \\
+47         & NULL/ed/es/ing       & 116             & abolish, abolished, abolishes, abolishing, ambush, ambushed, ambushes, ambushing, breach, breached \\
+48         & NULL/d/s/s(2)        & 112             & balance, balanced, balances, balances(2), bandage, bandaged, bandages, bandages(2), bronze, bronzed \\
+49         & NULL/ly/ness         & 111             & abrupt, abruptly, abruptness, absolute, absolutely, absoluteness, aggressive, aggressively, aggressiveness, attentive \\
+50         & NULL/er              & 108             & bamberg, bamberger, basing, basinger, beak, beaker, birch, bircher, bloch, blocher \\
+51         & NULL/r               & 108             & aguila, aguilar, aube, auber, belle, beller, berne, berner, bernie, bernier \\
+52         & +s/NULL              & 104             & amanda, amanda+s, bainbridge, bainbridge+s, bancroft, bancroft+s, benjamin, benjamin+s, bowery, bowery+s \\
+53         & NULL/d/r/s           & 104             & bounce, bounced, bouncer, bounces, breathe, breathed, breather, breathes, dissolve, dissolved \\
+54         & e/ing                & 102             & allure, alluring, backslide, backsliding, bumble, bumbling, bustle, bustling, cackle, cackling \\
+55         & e/e(2)/ed/es/ing     & 100             & advocate, advocate(2), advocated, advocates, advocating, damage, damage(2), damaged, damages, damaging \\
+56         & ng/on/ons/ve         & 100             & aborting, abortion, abortions, abortive, accommodating, accommodation, accommodations, accommodative, adopting, adoption \\
+57         & NULL/ly/s            & 99              & active, actively, actives, alternative, alternatively, alternatives, biological, biologically, biologicals, cavalier \\
+58         & ce/t                 & 96              & abhorrence, abhorrent, affluence, affluent, ambience, ambient, ambivalence, ambivalent, belligerence, belligerent \\
+59         & d/s/s(2)             & 96              & approached, approaches, approaches(2), beached, beaches, beaches(2), branched, branches, branches(2), bunched \\
+60         & NULL/al/s            & 93              & behavior, behavioral, behaviors, cleric, clerical, clerics, composition, compositional, compositions, computation \\
+61         & d/d(2)/r/rs          & 92              & adapted, adapted(2), adapter, adapters, adjusted, adjusted(2), adjuster, adjusters, commanded, commanded(2) \\
+62         & (2)/NULL/d/d(2)/s/s(2) & 90              & advocate, advocate(2), advocated, advocated(2), advocates, advocates(2), barricade, barricade(2), barricaded, barricaded(2) \\
+63         & e/ed/es/ing/ion      & 85              & activate, activated, activates, activating, activation, aggravate, aggravated, aggravates, aggravating, aggravation \\
+64         & NULL/ed/ing/ment     & 84              & apportion, apportioned, apportioning, apportionment, banish, banished, banishing, banishment, derail, derailed \\
+65         & NULL/t               & 84              & basal, basalt, basset, bassett, becket, beckett, behrend, behrendt, bernhard, bernhardt \\
+66         & an/en                & 84              & airman, airmen, assemblyman, assemblymen, brakeman, brakemen, businesswoman, businesswomen, cameraman, cameramen \\
+67         & er/ers/ing           & 84              & appetizer, appetizers, appetizing, babysitter, babysitters, babysitting, bestseller, bestsellers, bestselling, bookkeeper \\
+68         & r/st                 & 82              & bigger, biggest, bleaker, bleakest, bolder, boldest, busier, busiest, costlier, costliest \\
+69         & 's/(2)/NULL/s/s'/s(2) & 78              & analyst, analyst's, analyst(2), analysts, analysts', analysts(2), candidate, candidate's, candidate(2), candidates \\
+70         & e/ed/es/ing/ion/ions & 78              & complicate, complicated, complicates, complicating, complication, complications, concentrate, concentrated, concentrates, concentrating \\
+71         & NULL/ness            & 72              & aloof, aloofness, assertive, assertiveness, aware, awareness, cohesive, cohesiveness, crooked, crookedness \\
+72         & ied/ies/y/ying       & 72              & certified, certifies, certify, certifying, clarified, clarifies, clarify, clarifying, classified, classifies \\
+73         & NULL/ed/ing/s/y      & 70              & beef, beefed, beefing, beefs, beefy, chew, chewed, chewing, chews, chewy \\
+74         & e/ed/er/es/ing       & 70              & arrange, arranged, arranger, arranges, arranging, dissolve, dissolved, dissolver, dissolves, dissolving \\
+75         & NULL/ic/s            & 69              & antagonist, antagonistic, antagonists, aristocrat, aristocratic, aristocrats, atheist, atheistic, atheists, bureaucrat \\
+76         & e/es/ing             & 69              & become, becomes, becoming, bicycle, bicycles, bicycling, crackle, crackles, crackling, cradle \\
+77         & NULL/d/d(2)          & 66              & abbreviate, abbreviated, abbreviated(2), carbonate, carbonated, carbonated(2), cede, ceded, ceded(2), collaborate \\
+78         & NULL/d/r             & 66              & amble, ambled, ambler, avenge, avenged, avenger, cobble, cobbled, cobbler, collide \\
+79         & NULL/l               & 66              & aura, aural, bacteria, bacterial, beige, beigel, cary, caryl, cassel, cassell \\
+80         & e/ed/ion             & 66              & abdicate, abdicated, abdication, annihilate, annihilated, annihilation, assimilate, assimilated, assimilation, calibrate \\
+81         & 's/(2)/NULL/s        & 64              & acquisition, acquisition's, acquisition(2), acquisitions, andrea, andrea's, andrea(2), andreas, bachelor, bachelor's \\
+82         & NULL/d/ment/s        & 64              & amaze, amazed, amazement, amazes, commence, commenced, commencement, commences, engage, engaged \\
+83         & NULL/g               & 64              & agin, aging, amon, among, armin, arming, barkin, barking, baskin, basking \\
+84         & ce/t/tly             & 63              & abundance, abundant, abundantly, arrogance, arrogant, arrogantly, brilliance, brilliant, brilliantly, coherence \\
+85         & e/ed/es/ing/ion/ions/ive/or/ors & 63              & communicate, communicated, communicates, communicating, communication, communications, communicative, communicator, communicators, demonstrate \\
+86         & 's/(2)/NULL/s/s(2)   & 60              & article, article's, article(2), articles, articles(2), association, association's, association(2), associations, associations(2) \\
+87         & NULL/al/ally/s       & 60              & accident, accidental, accidentally, accidents, acoustic, acoustical, acoustically, acoustics, addition, additional \\
+88         & NULL/ally            & 60              & algebraic, algebraically, apologetic, apologetically, artistic, artistically, automatic, automatically, democratic, democratically \\
+89         & NULL/ed/er/ing/s     & 60              & blend, blended, blender, blending, blends, charm, charmed, charmer, charming, charms \\
+90         & NULL/ed/ing/ment/s   & 60              & abandon, abandoned, abandoning, abandonment, abandons, adjourn, adjourned, adjourning, adjournment, adjourns \\
+91         & NULL/s/y             & 60              & blake, blakes, blakey, bower, bowers, bowery, chunk, chunks, chunky, contributor \\
+92         & ies/y/y(2)           & 60              & abilities, ability, ability(2), activities, activity, activity(2), anchovies, anchovy, anchovy(2), annuities \\
+93         & NULL/man             & 58              & alder, alderman, baugh, baughman, bogey, bogeyman, broz, brozman, chess, chessman \\
+94         & e/ity                & 58              & agile, agility, alkaline, alkalinity, conductive, conductivity, connective, connectivity, expressive, expressivity \\
+95         & NULL/ity/ly          & 57              & abnormal, abnormality, abnormally, confidential, confidentiality, confidentially, constitutional, constitutionality, constitutionally, critical \\
+96         & on/ons/ve            & 57              & accusation, accusations, accusative, addiction, addictions, addictive, allusion, allusions, allusive, apprehension \\
+97         & (2)/NULL/d/s/s(2)    & 55              & attribute, attribute(2), attributed, attributes, attributes(2), coordinate, coordinate(2), coordinated, coordinates, coordinates(2) \\
+98         & NULL/ed/ing/ings/s   & 55              & belong, belonged, belonging, belongings, belongs, coat, coated, coating, coatings, coats \\
+99         & e/ed/ing/ion/ions    & 55              & delete, deleted, deleting, deletion, deletions, evacuate, evacuated, evacuating, evacuation, evacuations \\
+100        & NULL/ed/ing/ion/ions/s & 54              & affect, affected, affecting, affection, affections, affects, afflict, afflicted, afflicting, affliction \\
+101        & m/t/ts               & 54              & buddhism, buddhist, buddhists, extremism, extremist, extremists, fascism, fascist, fascists, feminism \\
+102        & n/r                  & 54              & alden, alder, aston, astor, beaten, beater, beholden, beholder, bitten, bitter \\
+103        & on/ve                & 54              & causation, causative, coercion, coercive, cognition, cognitive, cohesion, cohesive, collusion, collusive \\
+104        & (2)/NULL/ed/ing/s    & 50              & blanket, blanket(2), blanketed, blanketing, blankets, divert, divert(2), diverted, diverting, diverts \\
+105        & NULL/al              & 50              & detriment, detrimental, devotion, devotional, dysfunction, dysfunctional, epoch, epochal, geologic, geological \\
+106        & NULL/o               & 50              & adolf, adolfo, amin, amino, anselm, anselmo, bertin, bertino, boff, boffo \\
+107        & m/t                  & 50              & bolshevism, bolshevist, chauvinism, chauvinist, classicism, classicist, collectivism, collectivist, consumerism, consumerist \\
+108        & NULL/ed/ing/ion/ions/ive/s & 49              & adopt, adopted, adopting, adoption, adoptions, adoptive, adopts, assert, asserted, asserting \\
+109        & NULL/ism             & 48              & abolition, abolitionism, absentee, absenteeism, agrarian, agrarianism, authoritarian, authoritarianism, bilingual, bilingualism \\
+110        & NULL/r/s             & 48              & candle, candler, candles, dime, dimer, dimes, doer, doerr, doers, drove \\
+111        & d/r/rs/s             & 48              & amplified, amplifier, amplifiers, amplifies, bashed, basher, bashers, bashes, bowled, bowler \\
+112        & de/ded/des/ding/sion/sive & 48              & allude, alluded, alludes, alluding, allusion, allusive, conclude, concluded, concludes, concluding \\
+113        & e/ed/er/er's/ers/ers'/es/ing & 48              & advertise, advertised, advertiser, advertiser's, advertisers, advertisers', advertises, advertising, compute, computed \\
+114        & e/ed/es/ing/ion/ions/or/ors & 48              & allocate, allocated, allocates, allocating, allocation, allocations, allocator, allocators, calculate, calculated \\
+115        & e/ion                & 48              & acclimate, acclimation, adjudicate, adjudication, ameliorate, amelioration, condensate, condensation, confederate, confederation \\
+116        & NULL/a               & 46              & adrian, adriana, algom, algoma, attic, attica, baez, baeza, balbo, balboa \\
+117        & d/d(2)/r             & 45              & added, added(2), adder, blasted, blasted(2), blaster, blended, blended(2), blender, blunted \\
+118        & d/r/r's/rs/rs'       & 45              & borrowed, borrower, borrower's, borrowers, borrowers', controlled, controller, controller's, controllers, controllers' \\
+119        & d/r/s                & 45              & blitzed, blitzer, blitzes, cried, crier, cries, dashed, dasher, dashes, dulled \\
+120        & NULL/ed/er/ing       & 44              & belch, belched, belcher, belching, broil, broiled, broiler, broiling, clinch, clinched \\
+121        & m/t/tic/ts           & 44              & atheism, atheist, atheistic, atheists, capitalism, capitalist, capitalistic, capitalists, idealism, idealist \\
+122        & on/ons/ve/vely       & 44              & affirmation, affirmations, affirmative, affirmatively, attention, attentions, attentive, attentively, conclusion, conclusions \\
+123        & 's/NULL/n            & 42              & altman, altman's, altmann, arabia, arabia's, arabian, columbia, columbia's, columbian, czechoslovakia \\
+124        & NULL/d/r/r's/rs/rs'/s & 42              & consume, consumed, consumer, consumer's, consumers, consumers', consumes, examine, examined, examiner \\
+125        & NULL/ity             & 42              & banal, banality, collegial, collegiality, dexter, dexterity, dimensional, dimensionality, dissimilar, dissimilarity \\
+126        & NULL/ton             & 42              & adding, addington, barring, barrington, bingham, binghamton, burling, burlington, chester, chesterton \\
+127        & n/ned/ning/ns/r/st   & 42              & brighten, brightened, brightening, brightens, brighter, brightest, broaden, broadened, broadening, broadens \\
+128        & ng/on/ve             & 42              & accumulating, accumulation, accumulative, appreciating, appreciation, appreciative, commemorating, commemoration, commemorative, contemplating \\
+129        & ng/sh                & 42              & beaming, beamish, bearing, bearish, booking, bookish, branding, brandish, burning, burnish \\
+130        & 's/NULL/s/s'/ship    & 40              & dealer, dealer's, dealers, dealers', dealership, distributor, distributor's, distributors, distributors', distributorship \\
+131        & (2)/NULL/d/d(2)/s    & 40              & cooperate, cooperate(2), cooperated, cooperated(2), cooperates, duplicate, duplicate(2), duplicated, duplicated(2), duplicates \\
+132        & NULL/able/ed/ing/s   & 40              & afford, affordable, afforded, affording, affords, answer, answerable, answered, answering, answers \\
+133        & NULL/er/ers/ing/s    & 40              & bind, binder, binders, binding, binds, drink, drinker, drinkers, drinking, drinks \\
+134        & a/o                  & 40              & alessandra, alessandro, allegra, allegro, amelia, amelio, amiga, amigo, banja, banjo \\
+135        & NULL/d/ment          & 39              & abate, abated, abatement, amuse, amused, amusement, appease, appeased, appeasement, disburse \\
+136        & NULL/r/rs            & 39              & ciga, cigar, cigars, collie, collier, colliers, decode, decoder, decoders, drye \\
+137        & NULL/ic              & 38              & algebra, algebraic, autocrat, autocratic, bombast, bombastic, cataclysm, cataclysmic, cyst, cystic \\
+138        & d/rs                 & 38              & cataloged, catalogers, delivered, deliverers, doubted, doubters, ebbed, ebbers, embed, embers \\
+139        & '/'s/NULL            & 36              & angeles, angeles', angeles's, arkansas, arkansas', arkansas's, barclays, barclays', barclays's, brothers \\
+140        & (2)/NULL/d           & 36              & articulate, articulate(2), articulated, consummate, consummate(2), consummated, haile, haile(2), hailed, incense \\
+141        & (2)/NULL/ed/ing      & 36              & abstain, abstain(2), abstained, abstaining, affix, affix(2), affixed, affixing, annex, annex(2) \\
+142        & NULL/d/r/rs          & 36              & appraise, appraised, appraiser, appraisers, bulldoze, bulldozed, bulldozer, bulldozers, cleanse, cleansed \\
+143        & NULL/ped/per/pers/ping/s & 36              & clip, clipped, clipper, clippers, clipping, clips, flip, flipped, flipper, flippers \\
+144        & es/ng                & 36              & assemblies, assembling, batteries, battering, buddies, budding, callies, calling, counties, counting \\
+145        & a/e                  & 34              & agricola, agricole, carrera, carrere, cellulosa, cellulose, christina, christine, guerra, guerre \\
+146        & er/ng                & 34              & bombardier, bombarding, cartier, carting, dampier, damping, dressier, dressing, flashier, flashing \\
+147        & '/NULL/hip           & 33              & authors, authors', authorship, courts, courts', courtship, editors, editors', editorship, homeowners \\
+148        & NULL/ally/s          & 33              & aerobic, aerobically, aerobics, aesthetic, aesthetically, aesthetics, athletic, athletically, athletics, basic \\
+149        & NULL/er/s            & 33              & covenant, covenanter, covenants, execution, executioner, executions, gunfight, gunfighter, gunfights, lawn \\
+150        & '/NULL/hip/hips      & 32              & dealers, dealers', dealership, dealerships, directors, directors', directorship, directorships, distributors, distributors' \\
+151        & NULL/ed/ing/ion      & 32              & corrupt, corrupted, corrupting, corruption, disconnect, disconnected, disconnecting, disconnection, dissect, dissected \\
+152        & e/ed/er/ing          & 32              & amble, ambled, ambler, ambling, avenge, avenged, avenger, avenging, collide, collided \\
+153        & ed/er/ers/ing        & 32              & drummed, drummer, drummers, drumming, handicapped, handicapper, handicappers, handicapping, jogged, jogger \\
+154        & ical/ist/ists/y      & 32              & anthropological, anthropologist, anthropologists, anthropology, ecological, ecologist, ecologists, ecology, epidemiological, epidemiologist \\
+155        & 's/NULL/ed/ing/s     & 30              & charter, charter's, chartered, chartering, charters, foster, foster's, fostered, fostering, fosters \\
+156        & 's/NULL/ed/ing/s/s'  & 30              & concern, concern's, concerned, concerning, concerns, concerns', engineer, engineer's, engineered, engineering \\
+157        & (2)/NULL/ing         & 30              & caulk, caulk(2), caulking, decay, decay(2), decaying, diversify, diversify(2), diversifying, redress \\
+158        & NULL/berg            & 30              & ashen, ashenberg, batten, battenberg, blum, blumberg, dunkel, dunkelberg, franken, frankenberg \\
+159        & NULL/d/r/rs/s/s(2)   & 30              & dance, danced, dancer, dancers, dances, dances(2), exercise, exercised, exerciser, exercisers \\
+160        & NULL/d/r/s/y         & 30              & bone, boned, boner, bones, boney, buckle, buckled, buckler, buckles, buckley \\
+161        & NULL/ed/ence/ent/ing/s & 30              & differ, differed, difference, different, differing, differs, exist, existed, existence, existent \\
+162        & NULL/ous/s           & 30              & bulb, bulbous, bulbs, cancer, cancerous, cancers, cavern, cavernous, caverns, danger \\
+163        & NULL/ry/s            & 30              & bandit, banditry, bandits, demagogue, demagoguery, demagogues, gadget, gadgetry, gadgets, pageant \\
+164        & ble/tion             & 30              & abominable, abomination, adaptable, adaptation, adorable, adoration, combinable, combination, commendable, commendation \\
+165        & d/r/r's              & 30              & choreographed, choreographer, choreographer's, decked, decker, decker's, fielded, fielder, fielder's, harped \\
+166        & d/r/st               & 30              & cleared, clearer, clearest, longed, longer, longest, narrowed, narrower, narrowest, neared \\
+167        & e/ed/es/ing/ion/ive  & 30              & accumulate, accumulated, accumulates, accumulating, accumulation, accumulative, appreciate, appreciated, appreciates, appreciating \\
+168        & e/ed/es/ing/y        & 30              & bubble, bubbled, bubbles, bubbling, bubbly, curve, curved, curves, curving, curvy \\
+169        & e/ely/ity            & 30              & creative, creatively, creativity, dense, densely, density, exclusive, exclusively, exclusivity, passive \\
+170        & ed/ion               & 30              & amalgamated, amalgamation, dehydrated, dehydration, demoted, demotion, disaffected, disaffection, domesticated, domestication \\
+171        & ied/y                & 30              & crucified, crucify, declassified, declassify, dignified, dignify, divvied, divvy, fortified, fortify \\
+172        & l/r                  & 30              & cantel, canter, familial, familiar, fennel, fenner, fischel, fischer, hamel, hamer \\
+173        & m/tic                & 30              & altruism, altruistic, anachronism, anachronistic, autism, autistic, dualism, dualistic, hedonism, hedonistic \\
+174        & '/'(2)/(2)/NULL      & 28              & artists, artists', artists'(2), artists(2), associates, associates', associates'(2), associates(2), employers, employers' \\
+175        & 's/NULL/al/s         & 28              & department, department's, departmental, departments, development, development's, developmental, developments, division, division's \\
+176        & 's/NULL/d/s          & 28              & couple, couple's, coupled, couples, dome, dome's, domed, domes, institute, institute's \\
+177        & 's/NULL/s/y          & 28              & butcher, butcher's, butchers, butchery, cage, cage's, cages, cagey, cone, cone's \\
+178        & (2)/NULL/d/d(2)      & 28              & absolve, absolve(2), absolved, absolved(2), animate, animate(2), animated, animated(2), infiltrate, infiltrate(2) \\
+179        & (2)/NULL/d/s         & 28              & aggregate, aggregate(2), aggregated, aggregates, combine, combine(2), combined, combines, designate, designate(2) \\
+180        & NULL/ped/ping/s      & 28              & outstrip, outstripped, outstripping, outstrips, overlap, overlapped, overlapping, overlaps, sidestep, sidestepped \\
+181        & e/ed/ion/ions        & 28              & abbreviate, abbreviated, abbreviation, abbreviations, amputate, amputated, amputation, amputations, assassinate, assassinated \\
+182        & 's/NULL/on           & 27              & adams, adams's, adamson, akers, akers's, akerson, daniels, daniels's, danielson, edwards \\
+183        & NULL/ed/es           & 27              & admonish, admonished, admonishes, bias, biased, biases, cherish, cherished, cherishes, embargo \\
+184        & NULL/er/ers          & 27              & beep, beeper, beepers, hamburg, hamburger, hamburgers, infield, infielder, infielders, midwestern \\
+185        & NULL/n/ns            & 27              & albania, albanian, albanians, armenia, armenian, armenians, caesarea, caesarean, caesareans, dominica \\
+186        & al/e/es              & 27              & aboriginal, aborigine, aborigines, anecdotal, anecdote, anecdotes, homicidal, homicide, homicides, hormonal \\
+187        & cal/st/sts           & 27              & anthropological, anthropologist, anthropologists, biological, biologist, biologists, ecological, ecologist, ecologists, epidemiological \\
+188        & d/d(2)/rs            & 27              & cheated, cheated(2), cheaters, ended, ended(2), enders, extended, extended(2), extenders, funded \\
+189        & ied/y/ying           & 27              & electrified, electrify, electrifying, falsified, falsify, falsifying, gratified, gratify, gratifying, hurried \\
+190        & ion/ions/ory         & 27              & declaration, declarations, declaratory, expiration, expirations, expiratory, explanation, explanations, explanatory, exploration \\
+191        & NULL/en              & 26              & befall, befallen, bohl, bohlen, boyd, boyden, dirks, dirksen, henricks, henricksen \\
+192        & NULL/ed/er/ers/ing   & 25              & bleach, bleached, bleacher, bleachers, bleaching, fasten, fastened, fastener, fasteners, fastening \\
+193        & NULL/ed/er/es/ing    & 25              & dash, dashed, dasher, dashes, dashing, gush, gushed, gusher, gushes, gushing \\
+194        & able/e/ed/es/ing     & 25              & debatable, debate, debated, debates, debating, degradable, degrade, degraded, degrades, degrading \\
+195        & +s/NULL/s            & 24              & angelo, angelo+s, angelos, arena, arena+s, arenas, chiropractor, chiropractor+s, chiropractors, comedian \\
+196        & 2)/3)/4)             & 24              & azidothymidine(2), azidothymidine(3), azidothymidine(4), gatos(2), gatos(3), gatos(4), rocard(2), rocard(3), rocard(4), tracor(2) \\
+197        & NULL/a/e             & 24              & bred, breda, brede, isabell, isabella, isabelle, joann, joanna, joanne, karl \\
+198        & NULL/an              & 24              & dali, dalian, epicure, epicurean, fiji, fijian, harlem, harleman, heim, heiman \\
+199        & NULL/ed/ment         & 24              & consign, consigned, consignment, embellish, embellished, embellishment, endow, endowed, endowment, impeach \\
+200        & NULL/hip/hips        & 24              & airs, airship, airships, battles, battleship, battleships, champions, championship, championships, fellows \\
+201        & NULL/man/men         & 24              & clergy, clergyman, clergymen, crafts, craftsman, craftsmen, drafts, draftsman, draftsmen, french \\
+202        & NULL/on/on's         & 24              & alberts, albertson, albertson's, allis, allison, allison's, davids, davidson, davidson's, fergus \\
+203        & NULL/te              & 24              & allan, allante, brunet, brunette, italiana, italianate, juliet, juliette, lazuli, lazulite \\
+204        & a/c                  & 24              & anemia, anemic, anorexia, anorexic, claustrophobia, claustrophobic, euphoria, euphoric, germania, germanic \\
+205        & able/ed              & 24              & unaccountable, unaccounted, unalterable, unaltered, unanswerable, unanswered, undetectable, undetected, unimaginable, unimagined \\
+206        & an/an's/en           & 24              & businessman, businessman's, businessmen, chairman, chairman's, chairmen, congressman, congressman's, congressmen, fireman \\
+207        & ce/t/ts              & 24              & adherence, adherent, adherents, adolescence, adolescent, adolescents, assistance, assistant, assistants, attendance \\
+208        & cy/t                 & 24              & ascendancy, ascendant, buoyancy, buoyant, complacency, complacent, decency, decent, despondency, despondent \\
+209        & e/e(2)/ed/ing        & 24              & absolve, absolve(2), absolved, absolving, lambaste, lambaste(2), lambasted, lambasting, misuse, misuse(2) \\
+210        & ies/ies'/y/y's       & 24              & agencies, agencies', agency, agency's, authorities, authorities', authority, authority's, currencies, currencies' \\
+211        & ies/y/y's            & 24              & bureaucracies, bureaucracy, bureaucracy's, commodities, commodity, commodity's, democracies, democracy, democracy's, embassies \\
+212        & ous/y                & 24              & blasphemous, blasphemy, duplicitous, duplicity, felicitous, felicity, gluttonous, gluttony, infamous, infamy \\
+213        & r/s                  & 24              & crutcher, crutches, eamer, eames, hackler, hackles, joyner, joynes, kipper, kippes \\
+214        & NULL/hip             & 22              & ambassadors, ambassadorship, apprentices, apprenticeship, censors, censorship, companions, companionship, entrepreneurs, entrepreneurship \\
+215        & NULL/rd              & 22              & abela, abelard, berra, berrard, bulla, bullard, hansa, hansard, lena, lenard \\
+216        & e/ng                 & 22              & bailie, bailing, bowie, bowing, cokie, coking, doggie, dogging, dottie, dotting \\
+217        & ess/g                & 22              & business, busing, edginess, edging, emptiness, empting, pettiness, petting, readiness, reading \\
+218        & ey/y                 & 22              & autrey, autry, beverley, beverly, blankley, blankly, chauncey, chauncy, greeley, greely \\
+219        & ic/y                 & 22              & demagogic, demagogy, gastronomic, gastronomy, geodesic, geodesy, geometric, geometry, lethargic, lethargy \\
+220        & ity/ous              & 22              & ambiguity, ambiguous, anonymity, anonymous, enormity, enormous, frivolity, frivolous, heterogeneity, heterogeneous \\
+221        & ng/ve                & 22              & abusing, abusive, adapting, adaptive, appointing, appointive, combating, combative, dismissing, dismissive \\
+222        & NULL/ing/y           & 21              & brood, brooding, broody, fuss, fussing, fussy, gawk, gawking, gawky, glitter \\
+223        & NULL/ism/s           & 21              & booster, boosterism, boosters, catholic, catholicism, catholics, creation, creationism, creations, hindu \\
+224        & NULL/n/s             & 21              & bode, boden, bodes, collage, collagen, collages, mistake, mistaken, mistakes, photo \\
+225        & NULL/s/s's           & 21              & collin, collins, collins's, dalla, dallas, dallas's, luca, lucas, lucas's, lyon \\
+226        & NULL/s/son           & 21              & abraham, abrahams, abrahamson, abram, abrams, abramson, ache, aches, acheson, edmond \\
+227        & NULL/t/ts            & 21              & banque, banquet, banquets, ingo, ingot, ingots, locus, locust, locusts, publicis \\
+228        & cies/cy/t            & 21              & deficiencies, deficiency, deficient, inconsistencies, inconsistency, inconsistent, insolvencies, insolvency, insolvent, malignancies \\
+229        & e/ion/ions           & 21              & considerate, consideration, considerations, detente, detention, detentions, determinate, determination, determinations, incarnate \\
+230        & ed/er/ing            & 21              & chipped, chipper, chipping, cropped, cropper, cropping, dimmed, dimmer, dimming, fretted \\
+231        & ed/ing/y             & 21              & blurred, blurring, blurry, dragged, dragging, draggy, flopped, flopping, floppy, panicked \\
+232        & ied/ies/y            & 21              & codified, codifies, codify, exemplified, exemplifies, exemplify, parodied, parodies, parody, personified \\
+233        & ist/ists/y           & 21              & anesthesiologist, anesthesiologists, anesthesiology, cardiologist, cardiologists, cardiology, criminologist, criminologists, criminology, dermatologist \\
+234        & on/ve/vely           & 21              & aggression, aggressive, aggressively, compulsion, compulsive, compulsively, derision, derisive, derisively, figuration \\
+235        & 's/NULL/an/ans       & 20              & chicago, chicago's, chicagoan, chicagoans, haiti, haiti's, haitian, haitians, hawaii, hawaii's \\
+236        & 's/NULL/er/ers       & 20              & berlin, berlin's, berliner, berliners, eastern, eastern's, easterner, easterners, england, england's \\
+237        & (2)/(3)/(4)/NULL     & 20              & azidothymidine, azidothymidine(2), azidothymidine(3), azidothymidine(4), gatos, gatos(2), gatos(3), gatos(4), rocard, rocard(2) \\
+238        & (2)/(3)/NULL/ly      & 20              & adverse, adverse(2), adverse(3), adversely, pointed, pointed(2), pointed(3), pointedly, repeated, repeated(2) \\
+239        & (2)/NULL/ed/s        & 20              & accent, accent(2), accented, accents, debut, debut(2), debuted, debuts, engender, engender(2) \\
+240        & (2)/NULL/ly/ness     & 20              & awkward, awkward(2), awkwardly, awkwardness, competitive, competitive(2), competitively, competitiveness, handed, handed(2) \\
+241        & NULL/burg            & 20              & fitch, fitchburg, fredericks, fredericksburg, gales, galesburg, johannes, johannesburg, laden, ladenburg \\
+242        & NULL/ed/ful/s        & 20              & delight, delighted, delightful, delights, disdain, disdained, disdainful, disdains, distrust, distrusted \\
+243        & NULL/ged/ging/s      & 20              & clog, clogged, clogging, clogs, plug, plugged, plugging, plugs, shrug, shrugged \\
+244        & NULL/ian             & 20              & arthur, arthurian, babylon, babylonian, corinth, corinthian, devon, devonian, gorgon, gorgonian \\
+245        & NULL/ide             & 20              & bays, bayside, beds, bedside, docks, dockside, harbors, harborside, lakes, lakeside \\
+246        & NULL/ies/s/y         & 20              & distiller, distilleries, distillers, distillery, eater, eateries, eaters, eatery, felon, felonies \\
+247        & NULL/ity/ly/s        & 20              & illegal, illegality, illegally, illegals, mortal, mortality, mortally, mortals, municipal, municipality \\
+248        & NULL/ment            & 20              & apart, apartment, atone, atonement, disgorge, disgorgement, fila, filament, garnish, garnishment \\
+249        & NULL/ome             & 20              & bothers, bothersome, burdens, burdensome, fears, fearsome, fours, foursome, irks, irksome \\
+250        & NULL/r/rs/s          & 20              & bike, biker, bikers, bikes, crusade, crusader, crusaders, crusades, freeze, freezer \\
+251        & NULL/ry              & 20              & baptiste, baptistery, biochemist, biochemistry, corolla, corollary, covent, coventry, drudge, drudgery \\
+252        & NULL/ter             & 20              & blot, blotter, brews, brewster, hollis, hollister, ives, ivester, pranks, prankster \\
+253        & NULL/tone            & 20              & corners, cornerstone, covers, coverstone, galls, gallstone, gems, gemstone, grinds, grindstone \\
+254        & d/r/r's/rs           & 20              & blinded, blinder, blinder's, blinders, commissioned, commissioner, commissioner's, commissioners, contained, container \\
+255        & e/e(2)/y/y(2)        & 20              & favorable, favorable(2), favorably, favorably(2), miserable, miserable(2), miserably, miserably(2), preferable, preferable(2) \\
+256        & en/on                & 20              & cardoen, cardoon, christophersen, christopherson, eriksen, erikson, iversen, iverson, jorgensen, jorgenson \\
+257        & m/t/t(2)/ts          & 20              & elitism, elitist, elitist(2), elitists, evangelism, evangelist, evangelist(2), evangelists, federalism, federalist \\
+258        & 's/NULL/y            & 18              & conner, conner's, connery, crocker, crocker's, crockery, cutler, cutler's, cutlery, dave \\
+259        & NULL/al/ally         & 18              & coincident, coincidental, coincidentally, geographic, geographical, geographically, historic, historical, historically, philosophic \\
+260        & NULL/ary/s           & 18              & compliment, complimentary, compliments, exclusion, exclusionary, exclusions, expedition, expeditionary, expeditions, precaution \\
+261        & NULL/e/es            & 18              & blond, blonde, blondes, elyse, elysee, elysees, heroin, heroine, heroines, refuge \\
+262        & NULL/et              & 18              & bourg, bourget, intermark, intermarket, linn, linnet, minds, mindset, newmark, newmarket \\
+263        & NULL/ia              & 18              & anson, ansonia, astor, astoria, brasil, brasilia, cecil, cecilia, macadam, macadamia \\
+264        & NULL/ion             & 18              & circumspect, circumspection, compass, compassion, crucifix, crucifixion, derelict, dereliction, diffract, diffraction \\
+265        & NULL/land            & 18              & dixie, dixieland, fairy, fairyland, falk, falkland, newfound, newfoundland, opry, opryland \\
+266        & NULL/n/r             & 18              & bade, baden, bader, goode, gooden, gooder, hage, hagen, hager, klee \\
+267        & NULL/son             & 18              & aron, aronson, axel, axelson, derrick, derrickson, grier, grierson, grieve, grieveson \\
+268        & NULL/t/t's           & 18              & abbot, abbott, abbott's, babbit, babbitt, babbitt's, burnet, burnett, burnett's, elliot \\
+269        & NULL/ter/ters        & 18              & centime, centimeter, centimeters, dumps, dumpster, dumpsters, hams, hamster, hamsters, mobs \\
+270        & al/es                & 18              & actuarial, actuaries, adversarial, adversaries, arterial, arteries, ceremonial, ceremonies, controversial, controversies \\
+271        & d/d(2)/s             & 18              & entrenched, entrenched(2), entrenches, recessed, recessed(2), recesses, relaxed, relaxed(2), relaxes, relinquished \\
+272        & d/n                  & 18              & charred, charren, culled, cullen, overlaid, overlain, polled, pollen, schwind, schwinn \\
+273        & e/es/ic              & 18              & catastrophe, catastrophes, catastrophic, climate, climates, climatic, episode, episodes, episodic, microscope \\
+274        & i/o                  & 18              & benedetti, benedetto, cerulli, cerullo, domenici, domenico, giuliani, giuliano, graziani, graziano \\
+275        & ical/y               & 18              & allegorical, allegory, asymmetrical, asymmetry, autobiographical, autobiography, liturgical, liturgy, metallurgical, metallurgy \\
+276        & m/t/tic              & 18              & humanism, humanist, humanistic, iconoclasm, iconoclast, iconoclastic, materialism, materialist, materialistic, naturalism \\
+277        & n/ns/us              & 18              & contention, contentions, contentious, flirtation, flirtations, flirtatious, fraction, fractions, fractious, infection \\
+278        & ng/tion              & 18              & disposing, disposition, exposing, exposition, imposing, imposition, proposing, proposition, redefining, redefinition \\
+279        & on/ve/ves            & 18              & abrasion, abrasive, abrasives, contraception, contraceptive, contraceptives, derivation, derivative, derivatives, locomotion \\
+280        & s/th                 & 18              & eighties, eightieth, fifties, fiftieth, forties, fortieth, nemes, nemeth, nineties, ninetieth \\
+281        & s/y                  & 18              & beckles, beckley, busses, bussey, cowles, cowley, hanes, haney, jitters, jittery \\
+282        & sis/tic              & 18              & catharsis, cathartic, electrolysis, electrolytic, emphasis, emphatic, neurosis, neurotic, paralysis, paralytic \\
+283        & NULL/ary             & 16              & counterrevolution, counterrevolutionary, deflation, deflationary, diction, dictionary, discretion, discretionary, disinflation, disinflationary \\
+284        & NULL/ful             & 16              & disrespect, disrespectful, distaste, distasteful, glee, gleeful, sorrow, sorrowful, spite, spiteful \\
+285        & NULL/ous             & 16              & gelatin, gelatinous, lecher, lecherous, rancor, rancorous, slander, slanderous, synonym, synonymous \\
+286        & c/sm                 & 16              & despotic, despotism, dimorphic, dimorphism, dogmatic, dogmatism, electromagnetic, electromagnetism, patriotic, patriotism \\
+287        & cal/st               & 16              & anatomical, anatomist, archaeological, archaeologist, biochemical, biochemist, botanical, botanist, immunological, immunologist \\
+288        & d/y                  & 16              & armed, armey, assad, assay, canard, canary, crawled, crawley, curled, curley \\
+289        & e/ic                 & 16              & atmosphere, atmospheric, gigante, gigantic, hemisphere, hemispheric, impolite, impolitic, prostate, prostatic \\
+290        & ess/y                & 16              & duchess, duchy, fairless, fairly, godless, godly, nameless, namely, purposeless, purposely \\
+291        & ily/y                & 16              & angrily, angry, clumsily, clumsy, customarily, customary, involuntarily, involuntary, momentarily, momentary \\
+292        & l/n                  & 16              & carmel, carmen, cecil, cecin, hempel, hempen, jovial, jovian, karel, karen \\
+293        & 's/NULL/e            & 15              & april, april's, aprile, barnett, barnett's, barnette, cain, cain's, caine, sloan \\
+294        & 's/NULL/er           & 15              & goldberg, goldberg's, goldberger, greenberg, greenberg's, greenberger, london, london's, londoner, steinberg \\
+295        & 's/NULL/es           & 15              & antar, antar's, antares, circus, circus's, circuses, conrad, conrad's, conrades, macintosh \\
+296        & NULL/e/s             & 15              & antenna, antennae, antennas, confidant, confidante, confidants, kraus, krause, krauss, melon \\
+297        & NULL/ed/y            & 15              & armor, armored, armory, embroider, embroidered, embroidery, flesh, fleshed, fleshy, spook \\
+298        & NULL/er/man          & 15              & dutch, dutcher, dutchman, haber, haberer, haberman, krug, kruger, krugman, schiff \\
+299        & NULL/ial/s           & 15              & conspirator, conspiratorial, conspirators, exponent, exponential, exponents, janitor, janitorial, janitors, nonresident \\
+300        & NULL/ies/y           & 15              & draper, draperies, drapery, galax, galaxies, galaxy, hatcher, hatcheries, hatchery, mumm \\
+301        & NULL/ion/ions        & 15              & condit, condition, conditions, incurs, incursion, incursions, intersect, intersection, intersections, remiss \\
+302        & ce/ces/t             & 15              & absence, absences, absent, fragrance, fragrances, fragrant, indulgence, indulgences, indulgent, observance \\
+303        & d/r/ry               & 15              & creamed, creamer, creamery, joined, joiner, joinery, potted, potter, pottery, puffed \\
+304        & e/es/ical            & 15              & bible, bibles, biblical, empire, empires, empirical, hypocrite, hypocrites, hypocritical, prototype \\
+305        & ed/ion/ions          & 15              & dislocated, dislocation, dislocations, miscalculated, miscalculation, miscalculations, perforated, perforation, perforations, situated \\
+306        & ical/ist/y           & 15              & anatomical, anatomist, anatomy, archaeological, archaeologist, archaeology, botanical, botanist, botany, neurological \\
+307        & le/les/ular          & 15              & muscle, muscles, muscular, particle, particles, particular, spectacle, spectacles, spectacular, triangle \\
+308        & ng/st/sts            & 15              & cartooning, cartoonist, cartoonists, lobbying, lobbyist, lobbyists, machining, machinist, machinists, reforming \\
+309        & r/rs/ur              & 15              & endeavor, endeavors, endeavour, harbor, harbors, harbour, honor, honors, honour, labor \\
+310        & NULL/ard             & 14              & boll, bollard, junky, junkyard, lomb, lombard, rudy, rudyard, stocky, stockyard \\
+311        & NULL/c               & 14              & altai, altaic, ante, antec, cardia, cardiac, delphi, delphic, lila, lilac \\
+312        & NULL/el              & 14              & dies, diesel, henk, henkel, hersch, herschel, meris, merisel, romm, rommel \\
+313        & NULL/ial             & 14              & equator, equatorial, existent, existential, proverb, proverbial, provident, providential, raptor, raptorial \\
+314        & NULL/ist             & 14              & clarinet, clarinetist, conversational, conversationalist, herbal, herbalist, percussion, percussionist, secession, secessionist \\
+315        & NULL/ite             & 14              & andes, andesite, benton, bentonite, camps, campsite, canaan, canaanite, dior, diorite \\
+316        & NULL/ne              & 14              & alkali, alkaline, argon, argonne, cicero, cicerone, linda, lindane, pico, picone \\
+317        & NULL/no              & 14              & bambi, bambino, gaeta, gaetano, manga, mangano, marcia, marciano, pisa, pisano \\
+318        & NULL/ship            & 14              & bipartisan, bipartisanship, brinkman, brinkmanship, craftsman, craftsmanship, horseman, horsemanship, showman, showmanship \\
+319        & NULL/tic             & 14              & aroma, aromatic, charisma, charismatic, dogma, dogmatic, enigma, enigmatic, melodrama, melodramatic \\
+320        & NULL/ty              & 14              & dain, dainty, disloyal, disloyalty, frail, frailty, hager, hagerty, haugh, haughty \\
+321        & NULL/us              & 14              & barbaro, barbarous, emma, emmaus, hideo, hideous, perse, perseus, ponti, pontius \\
+322        & a/ng                 & 14              & anglia, angling, gardenia, gardening, guardia, guarding, loggia, logging, melia, meling \\
+323        & a/on                 & 14              & agoura, agouron, camera, cameron, criteria, criterion, gamma, gammon, glenda, glendon \\
+324        & and/ey               & 14              & copland, copley, crossland, crossley, grassland, grassley, kingsland, kingsley, langland, langley \\
+325        & ed/s                 & 14              & headquartered, headquarters, parried, parris, rasheed, rashes, sprained, sprains, stilted, stilts \\
+326        & ion/ory              & 14              & conciliation, conciliatory, defamation, defamatory, inflammation, inflammatory, nondiscrimination, nondiscriminatory, reformation, reformatory \\
+327        & m/n                  & 14              & epsom, epson, gilliam, gillian, hansom, hanson, ketchem, ketchen, muslim, muslin \\
+328        & n/s                  & 14              & himalayan, himalayas, holmen, holmes, honduran, honduras, lewin, lewis, merlin, merlis \\
+329        & n/us                 & 14              & contagion, contagious, mcmann, mcmanus, nutrition, nutritious, oblivion, oblivious, ostentation, ostentatious \\
+330        & ng/ty                & 14              & continuing, continuity, divining, divinity, obscuring, obscurity, perplexing, perplexity, probing, probity \\
+331        & nt/tion              & 14              & aberrant, aberration, conversant, conversation, indignant, indignation, jubilant, jubilation, oxidant, oxidation \\
+332        & ous/ty               & 14              & atrocious, atrocity, audacious, audacity, capacious, capacity, commodious, commodity, ferocious, ferocity \\
+333        & NULL/able            & 12              & avail, available, dishonor, dishonorable, fission, fissionable, flamm, flammable, redoubt, redoubtable \\
+334        & NULL/ay              & 12              & callow, calloway, dares, daresay, doubled, doubleday, gains, gainsay, loved, loveday \\
+335        & NULL/by              & 12              & bigs, bigsby, blob, blobby, flab, flabby, horns, hornsby, passers, passersby \\
+336        & NULL/dale            & 12              & annan, annandale, barks, barksdale, dims, dimsdale, rags, ragsdale, scars, scarsdale \\
+337        & NULL/i               & 12              & abed, abedi, antonin, antonini, damian, damiani, martell, martelli, moron, moroni \\
+338        & NULL/ine             & 12              & aden, adenine, benedict, benedictine, coca, cocaine, labyrinth, labyrinthine, serpent, serpentine \\
+339        & NULL/la              & 12              & aldi, aldila, grano, granola, motto, mottola, patel, patella, rubel, rubella \\
+340        & NULL/le              & 12              & glenda, glendale, grist, gristle, laval, lavalle, pasqua, pasquale, riff, riffle \\
+341        & NULL/men             & 12              & cattle, cattlemen, herds, herdsmen, longshore, longshoremen, salary, salarymen, trades, tradesmen \\
+342        & NULL/st              & 12              & amid, amidst, among, amongst, bassi, bassist, erne, ernest, peroni, peronist \\
+343        & NULL/tick            & 12              & brooms, broomstick, candles, candlestick, dips, dipstick, joys, joystick, slaps, slapstick \\
+344        & NULL/x               & 12              & berle, berlex, chateau, chateaux, immune, immunex, methane, methanex, quale, qualex \\
+345        & a/um                 & 12              & atria, atrium, diverticula, diverticulum, emporia, emporium, flagella, flagellum, hafnia, hafnium \\
+346        & ble/ng               & 12              & collapsible, collapsing, convertible, converting, discernible, discerning, fallible, falling, flexible, flexing \\
+347        & e/i                  & 12              & camille, camilli, colette, coletti, fiore, fiori, sabatine, sabatini, vince, vinci \\
+348        & ed/ment              & 12              & arraigned, arraignment, assorted, assortment, disenchanted, disenchantment, misjudged, misjudgment, underdeveloped, underdevelopment \\
+349        & er/ing               & 12              & brimmer, brimming, matchmaker, matchmaking, quitter, quitting, recliner, reclining, ringler, ringling \\
+350        & ers/ing              & 12              & bootleggers, bootlegging, lawbreakers, lawbreaking, photofinishers, photofinishing, policymakers, policymaking, travellers, travelling \\
+351        & g/o                  & 12              & balding, baldino, betting, bettino, casing, casino, lading, ladino, pacing, pacino \\
+352        & g/s                  & 12              & giving, givins, hawking, hawkins, hugging, huggins, junking, junkins, robbing, robbins \\
+353        & id/or                & 12              & fervid, fervor, liquid, liquor, rancid, rancor, splendid, splendor, squalid, squalor \\
+354        & ing/s                & 12              & goering, goers, profiteering, profiteers, purring, purrs, scalding, scalds, teeming, teems \\
+355        & ist/y                & 12              & alchemist, alchemy, entomologist, entomology, microbiologist, microbiology, mineralogist, mineralogy, psychotherapist, psychotherapy \\
+356        & l/ry                 & 12              & canal, canary, elemental, elementary, flannel, flannery, funeral, funerary, mammal, mammary \\
+357        & l/y                  & 12              & chanel, chaney, dismal, dismay, hickel, hickey, merrill, merrily, rickel, rickey \\
+358        & n/wn                 & 12              & charleston, charlestown, johnston, johnstown, mckeon, mckeown, middleton, middletown, newton, newtown \\
+359        & ng/s                 & 12              & diagnosing, diagnosis, hoving, hovis, landing, landis, looming, loomis, souring, souris \\
+360        & ng/son               & 12              & batting, battison, comparing, comparison, grading, gradison, gunning, gunnison, jetting, jettison \\
+361        & r/ss                 & 12              & confer, confess, goodner, goodness, inner, inness, lawler, lawless, lightner, lightness \\
+362        & NULL/ey              & 10              & kims, kimsey, mahon, mahoney, mullan, mullaney, sank, sankey, stuck, stuckey \\
+363        & NULL/ham             & 10              & belling, bellingham, bucking, buckingham, cunning, cunningham, framing, framingham, rocking, rockingham \\
+364        & NULL/ley             & 10              & beards, beardsley, brier, brierley, keith, keithley, pais, paisley, welles, wellesley \\
+365        & NULL/m               & 10              & balsa, balsam, banta, bantam, hare, harem, nazis, nazism, theis, theism \\
+366        & NULL/ner             & 10              & bild, bildner, bruck, bruckner, kirch, kirchner, kirsch, kirschner, kush, kushner \\
+367        & NULL/ng              & 10              & bondi, bonding, dini, dining, hopi, hoping, taki, taking, venturi, venturing \\
+368        & NULL/ro              & 10              & alfa, alfaro, alva, alvaro, ichi, ichiro, navar, navarro, synch, synchro \\
+369        & NULL/ted             & 10              & bela, belated, flagella, flagellated, marina, marinated, refit, refitted, remit, remitted \\
+370        & NULL/ting            & 10              & beset, besetting, flit, flitting, outwit, outwitting, saliva, salivating, typeset, typesetting \\
+371        & a/is                 & 10              & debra, debris, derma, dermis, marsala, marsalis, theta, thetis, verona, veronis \\
+372        & al/e                 & 10              & archetypal, archetype, centrifugal, centrifuge, countercultural, counterculture, menopausal, menopause, reappraisal, reappraise \\
+373        & al/ng                & 10              & bestial, besting, coaxial, coaxing, filial, filing, impartial, imparting, sacrificial, sacrificing \\
+374        & al/on                & 10              & helical, helicon, lexical, lexicon, neutral, neutron, skeletal, skeleton, tetrahedral, tetrahedron \\
+375        & and/y                & 10              & flatland, flatly, motherland, motherly, overland, overly, portland, portly, richland, richly \\
+376        & ard/ood              & 10              & eastward, eastwood, hayward, haywood, heyward, heywood, homeward, homewood, westward, westwood \\
+377        & ble/ge               & 10              & breakable, breakage, heritable, heritage, lovable, lovage, passable, passage, reportable, reportage \\
+378        & cal/es               & 10              & biographical, biographies, chronological, chronologies, hierarchical, hierarchies, methodological, methodologies, tyrannical, tyrannies \\
+379        & d/t                  & 10              & bogard, bogart, eckerd, eckert, engelhard, engelhart, reinhard, reinhart, skilled, skillet \\
+380        & e/h                  & 10              & hence, hench, peace, peach, rouge, rough, wallace, wallach, wince, winch \\
+381        & e/ious               & 10              & caprice, capricious, inside, insidious, malice, malicious, prestige, prestigious, sacrilege, sacrilegious \\
+382        & ed/y                 & 10              & clubbed, clubby, linseed, linsey, perjured, perjury, twigged, twiggy, upholstered, upholstery \\
+383        & er/s                 & 10              & farrier, farris, hollinger, hollings, klauer, klaus, metier, metis, ritter, ritts \\
+384        & er/y                 & 10              & cinematographer, cinematography, danner, danny, leider, leidy, natter, natty, tedder, teddy \\
+385        & ess/ine              & 10              & airless, airline, hairless, hairline, headless, headline, lifeless, lifeline, wireless, wireline \\
+386        & h/k                  & 10              & attach, attack, blech, bleck, finch, finck, flash, flask, murdoch, murdock \\
+387        & h/o                  & 10              & bosch, bosco, corinth, corinto, enrich, enrico, frisch, frisco, witch, witco \\
+388        & h/t                  & 10              & beckwith, beckwitt, karsh, karst, kenneth, kennett, stylish, stylist, suresh, surest \\
+389        & ker/n                & 10              & carmaker, carman, glassmaker, glassman, kingmaker, kingman, lawmaker, lawman, newsmaker, newsman \\
+390        & ll/n                 & 10              & darrell, darren, enroll, enron, farrell, farren, goodwill, goodwin, woodfill, woodfin \\
+391        & ll/tt                & 10              & bissell, bissett, brummell, brummett, durrell, durrett, merrell, merrett, sherrill, sherritt \\
+392        & m/s                  & 10              & magnum, magnus, marcum, marcus, radium, radius, stratum, stratus, tantalum, tantalus \\
+393        & n/rk                 & 10              & denman, denmark, goldman, goldmark, hallman, hallmark, newman, newmark, oakman, oakmark \\
+394        & n/t                  & 10              & alpern, alpert, began, begat, doorman, doormat, peron, perot, proletarian, proletariat \\
+395        & ne/s                 & 10              & benzene, benzes, francine, francis, lysine, lysis, selene, seles, slovene, sloves \\
+396        & ng/sm                & 10              & defeating, defeatism, determining, determinism, dwarfing, dwarfism, escaping, escapism, paralleling, parallelism \\
+397        & r/y                  & 10              & boger, bogey, cooner, cooney, keeler, keeley, reichler, reichley, tiller, tilley \\
+398        & sity/us              & 10              & curiosity, curious, generosity, generous, monstrosity, monstrous, virtuosity, virtuous, viscosity, viscous \\
+\bottomrule
+\end{tabular}
+
