@@ -148,7 +148,6 @@ def output_latex(iter_obj, file_path, title, headers,
         file_path = os.devnull
 
     file = open(file_path, 'w', encoding=encoding)
-
     if not (len(headers) == len(row_functions) == len(column_widths)):
         raise ValueError('headers, row_format, and column_widths '
                          'not of the same size')
@@ -204,6 +203,10 @@ def output_latex(iter_obj, file_path, title, headers,
     number_of_columns = len(header_list)
 
     print(title + '\n', file=file)
+    print('\\documentclass[a4paper]{article}\n', file=file)
+    print('\\usepackage[english]{babel}\n', file=file)
+    print('\\usepackage{booktabs}\n\n', file=file)
+    print('\\begin{document}\n', file=file)
     print('\\begin{{tabular}}{{{}}}'.format('l' * number_of_columns), file=file)
     print('\\toprule', file=file)
 
@@ -223,6 +226,7 @@ def output_latex(iter_obj, file_path, title, headers,
 
     print('\\bottomrule', file=file)
     print('\\end{tabular}\n', file=file)
+    print('\\end{document}', file=file)
 
     file.close()
 
